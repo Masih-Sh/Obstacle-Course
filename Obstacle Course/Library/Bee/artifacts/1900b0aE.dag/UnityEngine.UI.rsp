@@ -308,6 +308,7 @@
 -r:"D:/Program Files/Unity/Editor/2021.1.9f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"D:/Program Files/Unity/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"D:/Program Files/Unity/Editor/2021.1.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.cinemachine@2.7.4/Runtime/ThirdParty/clipper_library.dll"
 -r:"D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll"
