@@ -36,7 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mover.cs" />
+     <Compile Include="Assets\Scripts\Mover.cs" />
+     <Compile Include="Assets\Scripts\Dropper.cs" />
+     <Compile Include="Assets\Scripts\Scorer.cs" />
+     <Compile Include="Assets\Scripts\ObjectHit.cs" />
+     <Compile Include="Assets\Scripts\Spinner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/2021.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -270,6 +274,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library">
+        <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.cinemachine@2.7.4/Runtime/ThirdParty/clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -622,8 +629,14 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -655,14 +668,14 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>D:/UnityProjects/Obstacle Course/Obstacle-Course/Obstacle Course/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
